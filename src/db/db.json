@@ -1,5 +1,5 @@
 {
-  "users" : [
+  "users": [
     {
       "id": 1,
       "name": "Leanne Graham",
@@ -229,6 +229,22 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
+    },
+    {
+      "name": "taiseen",
+      "userName": "Taiseen",
+      "email": "taiseen.cse@gmail.com",
+      "phone": "01717416412",
+      "website": "www.taiseen.com",
+      "id": 15
+    },
+    {
+      "name": "taiseen",
+      "userName": "Taiseen",
+      "email": "alex@gmail.com",
+      "phone": "0123456789",
+      "website": "www.taiseen.com",
+      "id": 16
     }
   ]
 }

@@ -7,6 +7,7 @@ import About from './components/About';
 import PageNotFound from "./components/PageNotFound";
 import NavBar from './components/NavBar';
 import UserContextProvider from "./components/Context/UserContext";
+import UserAdd from "./components/UserAdd";
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
                     <Route path="/" exact component={Home} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/about" component={About} />
+                    <Route path="/user/add" component={UserAdd} />
                     <Route component={PageNotFound} />
                 </Switch>
             </Router>

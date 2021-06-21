@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+// NavLink use as like active link 
 
 const NavBar = () => {
     return (
@@ -30,12 +31,14 @@ const NavBar = () => {
                         </li>
                     </ul>
                     <form className="d-flex">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
+                        <input className="form-control" type="search" placeholder="Search" />
                     </form>
                 </div>
+
+                <Link to='/user/add' className="btn btn-outline-light ms-2">Add User</Link>
             </div>
-        </nav>);
+        </nav>
+    );
 };
 
 export default NavBar;
