@@ -1,6 +1,6 @@
 21-Jun-2021
 
-# React | User CRUD App <|> [`Live Link`](https://react-simple-shopping-cart-app.netlify.app/) 
+# React | User CRUD App <|> [`Live Link`](www) 
 
 ## Topic of Focus:
 * Context API
