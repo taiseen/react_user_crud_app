@@ -8,6 +8,8 @@ import PageNotFound from "./components/PageNotFound";
 import NavBar from './components/NavBar';
 import UserContextProvider from "./components/Context/UserContext";
 import UserAdd from "./components/UserAdd";
+import UserEdit from "./components/UserEdit";
+import UserView from "./components/UserView";
 
 const App = () => {
 
@@ -20,6 +22,8 @@ const App = () => {
                     <Route path="/contact" component={Contact} />
                     <Route path="/about" component={About} />
                     <Route path="/user/add" component={UserAdd} />
+                    <Route path="/user/edit/:id" component={UserEdit} />
+                    <Route path="/user/view/:id" component={UserView} />
                     <Route component={PageNotFound} />
                 </Switch>
             </Router>

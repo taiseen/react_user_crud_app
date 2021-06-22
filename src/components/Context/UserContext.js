@@ -7,16 +7,19 @@ export const UserContext = createContext();
 const UserContextProvider = ({ children }) => {
 
     const [users, setUsers] = useState([]);
-
-    useEffect(() => {
-        loadUsers();
-    }, []);
-
+    console.log(users)
+    
     // get all user from server... 
     const loadUsers = async () => {
         const result = await axios.get(baseURL);
-        setUsers(result?.data.reverse());
+        setUsers(result.data.reverse());
     }
+
+    
+    useEffect(() => {
+        loadUsers();
+    }, []);
+    
 
     return (
         <UserContext.Provider value={{ users }}>

@@ -4,10 +4,11 @@ import axios from 'axios';
 import { baseURL } from './BaseURL';
 
 const UserAdd = () => {
+    document.title = "Add User";
 
     const [user, setUser] = useState({
         name: '',
-        userName: '',
+        username: '',
         email: '',
         phone: '',
         website: ''
@@ -15,7 +16,7 @@ const UserAdd = () => {
 
     const history = useHistory();
 
-    const { name, userName, email, phone, website } = user;
+    const { name, username, email, phone, website } = user;
 
     //take all input from input fields
     const handleInputFields = e => {
@@ -46,8 +47,8 @@ const UserAdd = () => {
                     <div className="form-group mb-3">
                         <input
                             type="text"
-                            name="userName"
-                            value={userName}
+                            name="username"
+                            value={username}
                             onChange={e => handleInputFields(e)}
                             placeholder="Username"
                             className="form-control form-control-lg" />

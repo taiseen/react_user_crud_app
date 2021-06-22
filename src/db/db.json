@@ -186,7 +186,7 @@
     },
     {
       "id": 9,
-      "name": "Glenna Reichert",
+      "name": "Petar Parker",
       "username": "Delphine",
       "email": "Chaim_McDermott@dana.io",
       "address": {
@@ -209,9 +209,9 @@
     },
     {
       "id": 10,
-      "name": "Clementina DuBuque",
+      "name": "Taiseen Khan",
       "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz",
+      "email": "Rey.Padberg",
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -229,22 +229,6 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
-    },
-    {
-      "name": "taiseen",
-      "userName": "Taiseen",
-      "email": "taiseen.cse@gmail.com",
-      "phone": "01717416412",
-      "website": "www.taiseen.com",
-      "id": 15
-    },
-    {
-      "name": "taiseen",
-      "userName": "Taiseen",
-      "email": "alex@gmail.com",
-      "phone": "0123456789",
-      "website": "www.taiseen.com",
-      "id": 16
     }
   ]
 }
