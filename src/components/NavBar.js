@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 // NavLink use as like active link 
+import { UserContext } from './Context/UserContext';
 
 const NavBar = () => {
+
+    const { users , setSearch } = useContext(UserContext);
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
@@ -25,7 +29,7 @@ const NavBar = () => {
                         </li>
                     </ul>
                     <form className="d-flex">
-                        <input className="form-control" type="search" placeholder="Search" />
+                        <input className="form-control" type="search" placeholder="Search" onChange={e => setSearch(e.target.value)} />
                     </form>
                 </div>
 

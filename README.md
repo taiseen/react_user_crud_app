@@ -7,11 +7,6 @@
 * Link vs. NavLink (exact)
 * Context API for data sharing among all components
 
-* Short Circuit (&&)
-* Conditional Rendering (true ? ternary : operation)
-* use array methods ==> map , filter , find , reduce
-
-
 ## Technologies | Project is created with: 
 * HTML 
 * CSS 
@@ -25,7 +20,7 @@
         - `"start:dev": "concurrently \"yarn start\" \"yarn run json-server\"",`
         - `yarn run start:dev`
  
-    - `yarn add` axios
+    - `yarn add axios`
 
 * GitHub
 * API use from [JSON Place Holder](https://jsonplaceholder.typicode.com/users)
@@ -33,3 +28,5 @@
 
 ## Sample Image:
 <img src='./src/img/1.png'/>
+<img src='./src/img/2.png'/>
+<img src='./src/img/3.png'/>

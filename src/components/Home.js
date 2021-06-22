@@ -6,12 +6,13 @@ import { UserContext } from './Context/UserContext';
 
 const Home = () => {
     document.title = "Home";
-    // const { users } = useContext(UserContext);
+    
+    const { search } = useContext(UserContext);
 
     //#####################################################
 
     const [users, setUsers] = useState([]);
-    console.log(users)
+    //console.log(users)
 
     // get all user from server... 
     const loadUsers = async () => {

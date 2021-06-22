@@ -7,7 +7,7 @@ export const UserContext = createContext();
 const UserContextProvider = ({ children }) => {
 
     const [users, setUsers] = useState([]);
-    console.log(users)
+    const [search, setSearch] = useState([]);
     
     // get all user from server... 
     const loadUsers = async () => {
@@ -22,7 +22,7 @@ const UserContextProvider = ({ children }) => {
     
 
     return (
-        <UserContext.Provider value={{ users }}>
+        <UserContext.Provider value={{ users , search, setSearch }}>
             {children}
         </UserContext.Provider>
     );

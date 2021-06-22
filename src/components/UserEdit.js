@@ -48,7 +48,7 @@ const UserEdit = (props) => {
 
     return (
         <div className="container">
-            <div className="w-75 mx-auto shadow p-5">
+            <div className="w-75 mx-auto shadow p-5 mt-5">
 
                 <h2 className="text-center mb-4">Update User</h2>
 
