@@ -28,6 +28,6 @@
 
 
 ## Sample Image:
-<img src='./src/img/1.png'/>
-<img src='./src/img/2.png'/>
-<img src='./src/img/3.png'/>
+<img src='./src/img/01.png'/>
+<img src='./src/img/02.png'/>
+<img src='./src/img/03.png'/>
