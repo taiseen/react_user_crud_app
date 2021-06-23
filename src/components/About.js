@@ -24,8 +24,8 @@ const About = () => {
                 <li className="list-group-item"> export const <strong>baseURL</strong> = 'http://localhost:8000/users/' </li>
                 <li className="list-group-item">await axios<strong>.get</strong>( baseURL )</li>
                 <li className="list-group-item">await axios<strong>.get</strong>( baseURL + id )</li>
-                <li className="list-group-item">await axios<strong>.post</strong>( baseURL + id , <strong>object</strong> )</li>
-                <li className="list-group-item">await axios<strong>.put</strong>( baseURL + id )</li>
+                <li className="list-group-item">await axios<strong>.post</strong>( baseURL + id<strong> , object</strong> )</li>
+                <li className="list-group-item">await axios<strong>.put</strong>( baseURL + id<strong> , object</strong> )</li>
                 <li className="list-group-item">await axios<strong>.delete</strong>( baseURL + id )</li>
             </ol>
         </div>
